@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/plugins/FileUploader" >
+        <file>icon.png</file>
+    </qresource>
+    <qresource prefix="/icons" >
+    	<file>icon_path.png</file>
+    </qresource>		
+</RCC>
