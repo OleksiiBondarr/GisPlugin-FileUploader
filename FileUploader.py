@@ -201,7 +201,7 @@ class FileUploader:
                 ssh = paramiko.SSHClient()
                 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
                 time_out = 10000
-                ssh.connect("10.112.129.165", 5432, username="yshpylovyi", password="yshpylovyi2017", timeout=time_out)
+                ssh.connect("10.112.129.165", 5432, username="", password="", timeout=time_out)
                 #ssh.exec_command('cd /mnt/samba/share')
                 sftp = ssh.open_sftp()
 
